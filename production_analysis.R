@@ -1,6 +1,7 @@
 library(tidyverse)
 library(readr)
 library(latex2exp)
+library(stringr)
 
 #read in data 
 prod21 <- read_csv("OilGasProduction2021.csv")
